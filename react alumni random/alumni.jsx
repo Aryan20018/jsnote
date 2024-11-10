@@ -201,6 +201,7 @@ export default function AlumniMapWithAdd() {
           </Card>
           {selectedAlumni && (
             <Card>
+              
               <CardHeader>
                 <CardTitle>Alumni Details</CardTitle>
               </CardHeader>

@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Space Mono", monospace;
+}
+
+.container {
+  /* min-height:100vh; */
+  display: flex;
+  justify-content: center;
+}
+.card {
+  box-shadow: 0px 0px 3px 3px rgba(134, 134, 134, 0.582);
+  border-radius: 20px;
+  /* overflow: hidden; */
+  width: 40%;
+  margin: auto;
+  padding: 8px;
+}
+.card img {
+
+  position: relative;
+  /* top: 10px; */
+  /* left: 100px; */
+  border-radius: 20px;
+  width: 98%;
+  height: auto;
+
+  margin: 4px;
+}
+/* .boxCard {
+} */
+.card-tag {
+  margin-top: 19px;
+}
+.card-tag div {
+  list-style: none;
+  display: inline;
+  border: 1px solid red;
+  border-radius: 20px;
+  padding: 3px;
+  font-size: 16px;
+  margin: 10px;
+}
+li {
+  /* list-style: none;
+    display: inline;
+    border: 1px solid red;
+    border-radius: 20px;
+    padding: 3px;
+    font-size: 16px;
+    margin: 10px; */
+}
+/* .card-text {
+} */
+ .texthead{
+  margin: 10px;
+  text-transform: uppercase;
+ }
+p{
+  margin: 10px;
+  overflow: hidden;
+  background-color: aqua;
+  }
+.card-button {
+  margin: auto;
+  padding: 8px;
+  border-radius: 20px;
+  border: none;
+  background-color: var(--colora);
+  color: var(--color);
+}
+#button {
+  margin: auto;
+  width: 30%;
+}
+.card-button button:hover {
+  background-color: rgb(80, 181, 248);
+  font-weight: bold;
+}
+#button {
+  margin: auto;
+  width: 30%;
+}
+
+#button button {
+  margin: auto;
+  padding: 8px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgba(0, 140, 255, 0.215);
+  color: var(--color);
+}
+
+#button button:hover {
+  background-color: rgb(80, 181, 248);
+  font-weight: bold;
+}
